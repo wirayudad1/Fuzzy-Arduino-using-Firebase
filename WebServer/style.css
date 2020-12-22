@@ -1,0 +1,64 @@
+body{
+  text-align: center;
+  background-color: #FFFFFF ;
+}
+
+.lightStatus{
+  margin-top: 40%;
+  color: white;
+  font-family: Verdana;
+}
+.lightButton{
+  border: 1px solid #801515;        /* border: tebal[px] tipe[solid,dashed,dotted] warna[#hex, rgb()]; */
+  background-color: #801515;        /* ubah warna background */
+  color: #FFFFFF;                   /* ubah warna font */
+  font-size: 16px;                  /* ubah ukuran font */
+  width: 100px;                     /* set panjang button. ukuran width = ukuran height */
+  height: 100px;                    /* set tinggi button. ukuran width = ukuran height */
+  line-height: 16px;                /* set line height = font size */
+  text-align: center;               /* text posisi center */
+  border-radius: 50%;               /* set radius sudut pada button */
+}
+.units{ font-size: 3.0rem;}
+
+ .dht-labels{
+    font-size: 1.5rem;
+    vertical-align:middle;
+    padding-bottom: 15px;
+  }
+
+  .led-labels{
+    font-size: 1.5rem;
+    vertical-align:middle;
+    padding-bottom: 15px;
+  }
+
+  .center { 
+  height: 350px;
+  width: 400px;
+  background: #c0c5ce;
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: 50%;
+  left: 50%;
+  margin-top: -180px;
+  margin-left: -200px;
+}
+
+  .button-flat-circle {
+  border: 1px solid #801515;        /* border: tebal[px] tipe[solid,dashed,dotted] warna[#hex, rgb()]; */
+  background-color: #801515;        /* ubah warna background */
+  color: #FFFFFF;                   /* ubah warna font */
+  font-size: 16px;                  /* ubah ukuran font */
+  width: 100px;                     /* set panjang button. ukuran width = ukuran height */
+  height: 100px;                    /* set tinggi button. ukuran width = ukuran height */
+  line-height: 16px;                /* set line height = font size */
+  text-align: center;               /* text posisi center */
+  border-radius: 50%;               /* set radius sudut pada button */
+}
+.button-flat-circle:hover {
+  opacity: 0.8;                     /* ubah tingkat transparansi saat cursor menuju button. 0.0 s.d 1.0 */
+}
+.button-flat-circle:active {
+  background: #000000;              /* ubah background saat button ditekan */
+}

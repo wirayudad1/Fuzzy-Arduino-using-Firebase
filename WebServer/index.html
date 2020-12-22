@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+  <body>
+    <center>      
+      <h1 style="font-family: Helvetica;color: black;">Temperature & Humidity Monitoring</h1>
+    </center>
+    
+    <h1>
+    <i class="fas fa-thermometer-half" style="color:#059e8a;"></i> 
+    <span class="dht-labels">Temperature : </span> 
+    <span id="temp"></span>
+  </h1>
+</h1>
+<h1>
+ <i class="fas fa-tint" style="color:#059e8a;"></i> 
+ <span class="humid-labels">Humidity : </span> 
+ <span class="hum" style="color: #059e8a;"></span> 
+ <span id="hum"></span>
+</h1>
+  <h1>
+    <i class="far fa-lightbulb" style="color:#059e8a;"></i> 
+    <span class="led-labels">Status : </span> 
+    <span id="kondisi" style="color: #059e8a;"></span>
+  </h1>
+  <center>
+  <table style="width:40%" border="solid black">
+    <tr>
+      <th>Hum / Temp</th>
+      <th>Dingin</th> 
+      <th>Hangat</th>
+      <th>Panas</th>
+    </tr>
+    <tr>
+      <th>Kering</th>
+      <td>Kipas Mati</td>
+      <td>1 Kipas Menyala</td>
+      <td>2 Kipas Menyala</td>
+    </tr>
+    <tr>
+      <th>Sedang</th>
+      <td>Kipas Mati</td>
+      <td>1 Kipas Menyala</td>
+      <td>2 Kipas Menyala</td>
+    </tr>
+    <tr>
+      <th>Basah</th>
+      <td>Kipas Mati</td>
+      <td>2 Kipas Menyala</td>
+      <td>2 Kipas Menyala</td>
+    </tr>
+  </table>
+</center>
+<center>
+  <table style="width:25%">
+    <tr>
+      <th>       </th>
+      <td>Suhu</td> 
+      <th>       </th>
+      <td>Kelembaban</td>
+    </tr>
+    <tr>
+      <th>Dingin</th>
+      <td>0-25</td>
+      <th>Kering</th>
+      <td>0-45</td>
+    </tr>
+    <tr>
+      <th>Hangat</th>
+      <td>22-27</td>
+      <th>Sedang</th>
+      <td>30-70</td>
+    </tr>
+    <tr>
+      <th>Panas</th>
+      <td>25-100</td>
+      <th>Basah</th>
+      <td>45-100</td>
+    </tr>
+  </table>
+</center>
+  <footer class="footer">
+      <center>
+        <h4 style="font-family: Helvetica;color: black;">&copy; CE@2017 | Workshop Teknik Kompilasi | Kelompok 2 </h4>
+      </center>
+    </footer>
+  </body>
+</html>
